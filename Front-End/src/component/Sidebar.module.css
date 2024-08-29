@@ -1,0 +1,40 @@
+/* Sidebar.css */
+.aside {
+    width: 250px; /* Fixed width for the sidebar */
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    background-color: #f9f9f9;
+    height:700px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.aside h2{
+    color: #000;
+    font-size:50px;
+}
+
+.aside button img{
+    height:50px;
+    width: 55px;
+    border: none;
+}
+
+.aside button{
+    background-color: #f9f9f9;
+    width: auto;
+    border:none;
+    cursor: inherit;
+}
+
+.aside button img:hover{
+    cursor: pointer;
+}
+
+.aside h4{
+    font-size: 25px;
+}
+
+
+  
